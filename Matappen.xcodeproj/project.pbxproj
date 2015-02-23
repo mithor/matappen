@@ -14,6 +14,10 @@
 		442BCFE21A9A940B00356669 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442BCFE11A9A940B00356669 /* Images.xcassets */; };
 		442BCFE51A9A940B00356669 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442BCFE31A9A940B00356669 /* LaunchScreen.xib */; };
 		442BCFF11A9A940B00356669 /* MatappenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BCFF01A9A940B00356669 /* MatappenTests.m */; };
+		442BCFFC1A9AA13000356669 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BCFFB1A9AA13000356669 /* TableViewController.m */; };
+		442BCFFF1A9AA17100356669 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BCFFE1A9AA17100356669 /* DetailViewController.m */; };
+		442BD0021A9ACA9E00356669 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BD0011A9ACA9E00356669 /* TableViewCell.m */; };
+		442BD0051A9B08E700356669 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BD0041A9B08E700356669 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		442BCFEA1A9A940B00356669 /* MatappenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatappenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442BCFEF1A9A940B00356669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442BCFF01A9A940B00356669 /* MatappenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatappenTests.m; sourceTree = "<group>"; };
+		442BCFFA1A9AA13000356669 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		442BCFFB1A9AA13000356669 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		442BCFFD1A9AA17100356669 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		442BCFFE1A9AA17100356669 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		442BD0001A9ACA9E00356669 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		442BD0011A9ACA9E00356669 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		442BD0031A9B08E700356669 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		442BD0041A9B08E700356669 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +98,17 @@
 				442BCFDB1A9A940B00356669 /* ViewController.h */,
 				442BCFDC1A9A940B00356669 /* ViewController.m */,
 				442BCFDE1A9A940B00356669 /* Main.storyboard */,
+				442BCFFD1A9AA17100356669 /* DetailViewController.h */,
+				442BCFFE1A9AA17100356669 /* DetailViewController.m */,
+				442BCFFA1A9AA13000356669 /* TableViewController.h */,
+				442BCFFB1A9AA13000356669 /* TableViewController.m */,
 				442BCFE11A9A940B00356669 /* Images.xcassets */,
 				442BCFE31A9A940B00356669 /* LaunchScreen.xib */,
 				442BCFD41A9A940B00356669 /* Supporting Files */,
+				442BD0001A9ACA9E00356669 /* TableViewCell.h */,
+				442BD0011A9ACA9E00356669 /* TableViewCell.m */,
+				442BD0031A9B08E700356669 /* SearchViewController.h */,
+				442BD0041A9B08E700356669 /* SearchViewController.m */,
 			);
 			path = Matappen;
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442BCFFF1A9AA17100356669 /* DetailViewController.m in Sources */,
+				442BD0021A9ACA9E00356669 /* TableViewCell.m in Sources */,
 				442BCFDD1A9A940B00356669 /* ViewController.m in Sources */,
 				442BCFDA1A9A940B00356669 /* AppDelegate.m in Sources */,
 				442BCFD71A9A940B00356669 /* main.m in Sources */,
+				442BCFFC1A9AA13000356669 /* TableViewController.m in Sources */,
+				442BD0051A9B08E700356669 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
