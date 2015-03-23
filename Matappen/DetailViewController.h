@@ -10,6 +10,6 @@
 
 @interface DetailViewController : UIViewController
 
-@property (nonatomic) NSString *item;
+@property (nonatomic) NSDictionary *item;
 
 @end

@@ -18,6 +18,7 @@
 		442BCFFF1A9AA17100356669 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BCFFE1A9AA17100356669 /* DetailViewController.m */; };
 		442BD0021A9ACA9E00356669 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BD0011A9ACA9E00356669 /* TableViewCell.m */; };
 		442BD0051A9B08E700356669 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BD0041A9B08E700356669 /* SearchViewController.m */; };
+		442BD03C1A9DD6B500356669 /* foodstuff.txt in Resources */ = {isa = PBXBuildFile; fileRef = 442BD03B1A9DD6B500356669 /* foodstuff.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		442BD0011A9ACA9E00356669 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		442BD0031A9B08E700356669 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		442BD0041A9B08E700356669 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		442BD03B1A9DD6B500356669 /* foodstuff.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = foodstuff.txt; path = ../../../foodstuff.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		442BCFD31A9A940B00356669 /* Matappen */ = {
 			isa = PBXGroup;
 			children = (
+				442BD03B1A9DD6B500356669 /* foodstuff.txt */,
 				442BCFD81A9A940B00356669 /* AppDelegate.h */,
 				442BCFD91A9A940B00356669 /* AppDelegate.m */,
 				442BCFDB1A9A940B00356669 /* ViewController.h */,
@@ -222,6 +225,7 @@
 				442BCFE01A9A940B00356669 /* Main.storyboard in Resources */,
 				442BCFE51A9A940B00356669 /* LaunchScreen.xib in Resources */,
 				442BCFE21A9A940B00356669 /* Images.xcassets in Resources */,
+				442BD03C1A9DD6B500356669 /* foodstuff.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,7 @@
 				442BCFF61A9A940B00356669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		442BCFF71A9A940B00356669 /* Build configuration list for PBXNativeTarget "MatappenTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +449,7 @@
 				442BCFF91A9A940B00356669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
