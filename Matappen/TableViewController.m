@@ -22,7 +22,7 @@
 
 - (NSArray*)items {
     if (!_items) {
-        _items = @[@{@"name" : @"Laddar lista..."}];
+        _items = @[@{@"name" : @"Laddar lista...", @"number" : @0}];
     }
     return _items;
 }
@@ -30,9 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //NSURL *url = [NSURL URLWithString:@"http://matapi.se/foodstuff"];
+    NSURL *url = [NSURL URLWithString:@"http://matapi.se/foodstuff"];
     //temporarily using local file here
-    NSURL *url = [[NSBundle mainBundle] URLForResource: @"foodstuff" withExtension:@"txt"];
+    //NSURL *url = [[NSBundle mainBundle] URLForResource: @"foodstuff" withExtension:@"txt"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request
